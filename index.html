@@ -20,40 +20,110 @@
 
 <body>
     <header>
-        <nav>
-            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="27" height="16" viewBox="0 0 27 16" fill="none">
+        <div class="container header">
+            <nav>
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="27" height="16" viewBox="0 0 27 16" fill="none">
                 <path d="M0.999756 1.00024H25.3396" stroke="white" stroke-width="1.5" stroke-linecap="round" />
                 <path d="M0.997803 8.00024H10.0916" stroke="white" stroke-width="1.5" stroke-linecap="round" />
                 <path d="M0.999756 15.0002H19.7302" stroke="white" stroke-width="1.5" stroke-linecap="round" />
             </svg> -->
-            <svg width="24" height="14">
-                <use href="./images/icons.svg#icon-menu"></use>
-            </svg>
-        </nav>
+                <svg width="24" height="14">
+                    <use href="./images/icons.svg#icon-menu"></use>
+                </svg>
+            </nav>
 
-        <a href="./index.html"><img src=".images/hampton_logo.png" alt="hampton_logo"></a>
+            <a href="./index.html"><img width="198px" height="72" src="./images/hampton_logo.png"
+                    alt="hampton_logo"></a>
 
-        <ul>
-            <li>
-                <svg></svg>
-            </li>
-            <li>
-                <svg></svg>
-            </li>
-            <li>
-                <svg></svg>
-            </li>
-        </ul>
+            <ul class="nav-list">
+                <li>
+                    <svg width="25" height="25">
+                        <use href="./images/icons.svg#icon-lens"></use>
+                    </svg>
+                </li>
+                <li>
+                    <svg width="28" height="25">
+                        <use href="./images/icons.svg#icon-shop"></use>
+                    </svg>
+                </li>
+                <li>
+                    <img width="38" height="38" src="./images/user.png">
+                </li>
+            </ul>
+        </div>
+
 
     </header>
     <main>
-        <section class="hero"></section>
-        <section></section>
-        <section></section>
-        <section></section>
+        <section>
+            <div class="container hero">
+                <div>
+                    <h1>ARTISAN
+                        CHOCOLATE</h1>
+                    <h3>BARS & GIFT SETS</h3>
+                    <button>SHOP NOW</button>
+                </div>
+                <div>
+                    <p>CATEGORY</p>
+                    <svg width="15" height="11">
+                        <use href="./images/icons.svg#icon-category"></use>
+                    </svg>
+                    <p>01
+
+                        02
+
+                        03
+
+                        04</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container banner">
+                <h1>
+                    Get 20% discount
+                </h1>
+                <p>on orders over $300</p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="780" height="180" viewBox="0 0 780 180" fill="none">
+                    <path
+                        d="M778.999 1.95204C751.975 96.702 722.679 -7.64798 607.548 135.565C492.417 278.778 468.501 8.88703 364.986 70.317C254.149 136.096 249.586 -0.462997 180.128 77.934C110.67 156.331 1.50208 2.66499 1.50208 2.66499"
+                        stroke="#AE6E53" stroke-width="2" stroke-linecap="round" stroke-dasharray="10 10" />
+                </svg>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div>
+                    <div>
+                        <h1>Top Sellers</h1>
+                        <p>Crazy enough chocolate originates from a bean just like the coffee bean called Cacao. Cacao
+                            has been around for
+                            thousands of years and was first discovered by the Native American tribe called the Mayans.
+                        </p>
+                        <a>View more about Top Sellers <svg xmlns="http://www.w3.org/2000/svg" width="28" height="10"
+                                viewBox="0 0 28 10" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0.38971 5.29692C0.38971 5.16631 0.493628 5.04105 0.678604 4.94869C0.86358 4.85634 1.11446 4.80445 1.37606 4.80445H24.6324L18.4259 1.70674C18.3306 1.66139 18.2543 1.60697 18.2017 1.5467C18.1491 1.48642 18.1212 1.42149 18.1196 1.35575C18.118 1.29 18.1427 1.22475 18.1924 1.16385C18.242 1.10295 18.3156 1.04763 18.4087 1.00113C18.5018 0.954637 18.6126 0.917913 18.7346 0.893121C18.8566 0.868329 18.9873 0.85597 19.1189 0.856772C19.2506 0.857574 19.3807 0.87152 19.5014 0.897789C19.6221 0.924059 19.7311 0.962121 19.8219 1.00974L27.7106 4.94842C27.8023 4.99416 27.8751 5.04849 27.9248 5.10829C27.9744 5.16808 28 5.23219 28 5.29692C28 5.36166 27.9744 5.42576 27.9248 5.48556C27.8751 5.54536 27.8023 5.59968 27.7106 5.64542L19.8219 9.58411C19.7316 9.63268 19.6226 9.67166 19.5015 9.69873C19.3803 9.72579 19.2495 9.74039 19.1168 9.74163C18.9841 9.74288 18.8522 9.73075 18.7291 9.70598C18.606 9.68121 18.4942 9.6443 18.4003 9.59745C18.3064 9.55061 18.2324 9.4948 18.1827 9.43335C18.133 9.37191 18.1086 9.30609 18.111 9.23983C18.1134 9.17357 18.1425 9.10823 18.1966 9.04772C18.2507 8.98721 18.3287 8.93276 18.4259 8.88764L24.6324 5.78992H1.37606C1.24644 5.78992 1.11809 5.77717 0.998353 5.75239C0.878614 5.7276 0.769833 5.69128 0.678228 5.64549C0.586623 5.59971 0.513992 5.54536 0.464486 5.48555C0.41498 5.42573 0.38957 5.36164 0.38971 5.29692Z"
+                                    fill="#FF6E6E" />
+                            </svg></a>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="641" height="121" viewBox="0 0 641 121" fill="none">
+                    <path
+                        d="M1 119.708C23.2 55.8355 47.2599 126.178 141.826 29.6375C236.392 -66.9025 256.036 115.038 341.06 73.6205C432.098 29.2785 435.842 121.335 492.897 68.4865C549.952 15.6385 639.617 119.226 639.617 119.226"
+                        stroke="#AE6E53" stroke-width="2" stroke-linecap="round" stroke-dasharray="10 10" />
+                </svg>
+            </div>
+        </section>
+        <section>
+            <div class="container"></div>
+        </section>
     </main>
     <footer>
-
+        <div class="container"></div>
     </footer>
 </body>
 

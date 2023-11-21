@@ -1,5 +1,5 @@
 body {
-    fill: #180D13;
+    background-color: #180D13;
 }
 
 main {
@@ -42,12 +42,13 @@ button {
 a {
     text-decoration: none
 }
-/* 
-.container {
-    width: 1360px;
-    margin: 0 auto
-}
 
+.container {
+    width: 1920px;
+    margin: 0 auto;
+    padding-left: 277px;
+}
+/* 
 .heading {
     display: flex;
     justify-content: space-between;
@@ -97,24 +98,38 @@ a {
     padding-bottom: 20px
 } */
 /* ================ Header =====================  */
-header {
-    background-color:green;
+.header {
     display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 286px;
+    position: absolute;
+}
+.nav-list {
+    display:flex;
+    align-items: center;
+    gap: 34px;
 }
 /* ================ SECTION ONE =====================  */
 .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
-        url(../images/choco-bg.png);
+    background-image: url(../images/choco-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     width: 1920px;
     height: 973px;
 }
-
-
+/* ================ SECTION TWO =====================  */
+.banner {
+    width: 1366px;
+    height: 348px;
+    background-image: url(../images/offerbanner.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+}
 
 
 
