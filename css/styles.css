@@ -1,0 +1,140 @@
+body {
+    fill: #180D13;
+}
+
+main {
+    flex-grow: 1
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0
+}
+
+img {
+    display: block;
+    width: 100%
+}
+
+input,
+textarea,
+button {
+    font-family: inherit;
+    line-height: inherit
+}
+
+button {
+    cursor: pointer
+}
+
+a {
+    text-decoration: none
+}
+/* 
+.container {
+    width: 1360px;
+    margin: 0 auto
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 28px;
+    padding-right: 28px;
+    width: 1360px;
+    position: absolute
+}
+
+.logo-span {
+    color: #28a745
+}
+
+.logo {
+    color: #fff;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.21
+}
+
+.nav {
+    margin-left: auto
+}
+
+.button-icon {
+    fill: #0ff
+}
+
+.button {
+    display: block;
+    width: 165px;
+    height: 48px;
+    border-radius: 5px;
+    background: #28A745;
+    margin: 0 auto
+}
+
+.navigation {
+    display: flex;
+    gap: 40px
+}
+
+.navigation-link {
+    padding-top: 20px;
+    padding-bottom: 20px
+} */
+/* ================ Header =====================  */
+header {
+    background-color:green;
+    display:flex;
+}
+/* ================ SECTION ONE =====================  */
+.hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+        url(../images/choco-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1920px;
+    height: 973px;
+}
+
+
+
+
+
+
+
+
+
+/*
+.section-three-list {
+    display: flex;
+    row-gap: 20px;
+    column-gap: 24px;
+    background-color: #00f;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+
+.section-three-list-item {
+    background: black;
+    width: calc((100% - 48px) / 3);
+    height: 282px
+} */
