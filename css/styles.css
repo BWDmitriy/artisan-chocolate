@@ -25,7 +25,6 @@ p {
 
 img {
     display: block;
-    width: 100%
 }
 
 input,
@@ -47,6 +46,9 @@ a {
     width: 1920px;
     margin: 0 auto;
     padding-left: 277px;
+}
+.logo {
+    display:block;
 }
 /* 
 .heading {
@@ -104,6 +106,7 @@ a {
     align-items: center;
     padding-right: 286px;
     position: absolute;
+    top:36px;
 }
 .nav-list {
     display:flex;
@@ -120,6 +123,79 @@ a {
     margin-right: auto; */
     width: 1920px;
     height: 973px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 0;
+}
+.hero-description-div {
+    width: 333px;
+    height: 365px;
+}
+.hero-heading {
+    color: #FFF;
+        font-family: Yanone Kaffeesatz;
+        font-size: 100px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 90px;
+        margin-bottom:30px;
+}
+.hero-paragraph {
+    color: #FFF;
+        font-family: PT Sans;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 43px;
+}
+.hero-button {
+    width: 277px;
+    height: 60px;
+    background-color: #FF2424;
+    color: #FFF;
+    font-family: PT Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.category {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+.category-heading {
+        color: #B19A8C;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        transform: rotate(-90deg);
+}
+.category-list {
+    color: #B19A8C;
+        font-family: Lato;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        /* 166.667% */
+        
+}
+.category-list > li {
+    margin-bottom: 20px;
+}
+.category-item {
+    color: #FFF;
+        font-family: Lato;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
 }
 /* ================ SECTION TWO =====================  */
 .banner {
@@ -132,8 +208,11 @@ a {
 }
 
 
-
-
+/* ================ SECTION FOUR =====================  */
+.best-gift {
+    width: 1001px;
+    height: 667px;
+}
 
 
 
