@@ -265,17 +265,18 @@ section {
     /* 160% */
     margin-bottom: 45px;
 }
-.topsell-linkdiv {
+.topsell-link {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
     color: #FF6E6E;
     font-family: PT Sans;
     font-size: 25px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width:350px;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
 }
 .topsell-gallery {
     display: flex;
