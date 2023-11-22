@@ -299,10 +299,47 @@ section {
 /* ================ SECTION FOUR =====================  */
 .best-gift {
     width: 1001px;
-    height: 667px;
+    height: 953px;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+.best-gift-heading {
+    color: #FFF;
+        text-align: center;
+        font-family: Yanone Kaffeesatz;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 34px;
+}
+.best-gift-paragraph {
+    width: 648px;
+    color: #FFF;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 87px;
+}
+.best-gift-bg {
+    width: 1001px;
+    height: 667px;
+    background-image: url(../images/choco-preview.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 45px;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-
+}
 
 /*
 .section-three-list {
