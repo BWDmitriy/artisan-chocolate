@@ -349,13 +349,9 @@ section {
 .footer-main {
     width: 1920px;
     height: 489px;
-    /* fill: #FFFAF4;
-    opacity: 0.102; */
     background-color: rgba(255, 255, 244, 0.102);
     display:flex;
-    /* align-items: center; */
-    padding:0 auto;
-    padding-top:77px;
+    padding: 77px 277px;
 }
 .footer-main > div {
     margin: 0 auto;
