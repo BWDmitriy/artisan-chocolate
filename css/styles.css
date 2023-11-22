@@ -41,7 +41,9 @@ button {
 a {
     text-decoration: none
 }
-
+section {
+    padding: 120px 0;
+}
 .container {
     width: 1920px;
     margin: 0 auto;
@@ -202,12 +204,97 @@ a {
     width: 1366px;
     height: 348px;
     background-image: url(../images/offerbanner.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top:45px;
+    padding-left: 0;
+    text-align: center;
 }
-
-
+.banner-heading {
+    color: #FFF;
+    font-family: PT Sans;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.banner-paragraph {
+    color: #FFF;
+    font-family: PT Sans;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 325px;
+}
+#banner-curve {
+    margin-top: 25px;
+    float: right;
+}
+/* ================ SECTION THREE =====================  */
+.topsell {
+    width: 1430px;
+    height: 585px;
+    padding-left: 0;
+}
+.topsell-content {
+    display: flex;
+    gap:80px;
+}
+.topsell-heading {
+    width: 376px;
+    height: 97px;
+    color: #FFF;
+    font-family: PT Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 19px;
+}
+.topsell-paragraph {
+    width: 404px;
+    height: 236px;
+    color: #FFF;
+    font-family: PT Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    /* 160% */
+    margin-bottom: 45px;
+}
+.topsell-linkdiv {
+    color: #FF6E6E;
+    font-family: PT Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width:350px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topsell-gallery {
+    display: flex;
+    flex-direction: column;
+}
+.topsell-list {
+    display:flex;
+    margin-bottom: 47px;
+}
+.topsell-list-item:first-child {
+    margin-right: 18px;
+    
+}
+.topsell-img {
+    border-radius: 10px;
+}
+.topsell-buttons {
+    align-self: center;
+}
 /* ================ SECTION FOUR =====================  */
 .best-gift {
     width: 1001px;

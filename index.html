@@ -77,11 +77,12 @@
         </section>
         <section>
             <div class="container banner">
-                <h1>
+                <h2 class="banner-heading">
                     Get 20% discount
-                </h1>
-                <p>on orders over $300</p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="780" height="180" viewBox="0 0 780 180" fill="none">
+                </h2>
+                <p class="banner-paragraph">on orders over $300</p>
+                <svg id="banner-curve" xmlns="http://www.w3.org/2000/svg" width="780" height="180" viewBox="0 0 780 180"
+                    fill="none">
                     <path
                         d="M778.999 1.95204C751.975 96.702 722.679 -7.64798 607.548 135.565C492.417 278.778 468.501 8.88703 364.986 70.317C254.149 136.096 249.586 -0.462997 180.128 77.934C110.67 156.331 1.50208 2.66499 1.50208 2.66499"
                         stroke="#AE6E53" stroke-width="2" stroke-linecap="round" stroke-dasharray="10 10" />
@@ -89,20 +90,45 @@
             </div>
         </section>
         <section>
-            <div class="container">
-                <div>
+            <div class="container topsell">
+                <div class="topsell-content">
                     <div>
-                        <h2>Top Sellers</h2>
-                        <p>Crazy enough chocolate originates from a bean just like the coffee bean called Cacao. Cacao
+                        <h2 class="topsell-heading">Top Sellers</h2>
+                        <p class="topsell-paragraph">Crazy enough chocolate originates from a bean just like the coffee
+                            bean called Cacao. Cacao
                             has been around for
                             thousands of years and was first discovered by the Native American tribe called the Mayans.
                         </p>
-                        <a>View more about Top Sellers <svg width="28" height="8">
+                        <div class="topsell-linkdiv">
+                            <a>View more about Top Sellers </a> <svg width="28" height="8">
                                 <use href="./images/icons.svg#arrow_red"></use>
-                            </svg></a>
-                    </div>
-                    <div>
+                            </svg>
+                        </div>
 
+                    </div>
+                    <div class="topsell-gallery">
+                        <!-- width="300" height="525" -->
+                        <ul class="topsell-list">
+                            <li class="topsell-list-item"><img class="topsell-img" src="./images/choco-photo1.jpg"
+                                    alt="Chocolate 1"></li>
+                            <li><img class="topsell-img" src="./images/choco-photo2.jpg" alt="Chocolate 2"></li>
+                            <li><img class="topsell-img" src="./images/choco-photo3.jpg" alt="Chocolate 3"></li>
+                        </ul>
+                        <svg class="topsell-buttons" xmlns="http://www.w3.org/2000/svg" width="106" height="13"
+                            viewBox="0 0 106 13" fill="none">
+                            <path opacity="0.2"
+                                d="M6.5 13C10.0899 13 13 10.0899 13 6.5C13 2.91015 10.0899 0 6.5 0C2.91015 0 0 2.91015 0 6.5C0 10.0899 2.91015 13 6.5 13Z"
+                                fill="white" />
+                            <path
+                                d="M47.5 0H32.5C28.9101 0 26 2.91015 26 6.5C26 10.0899 28.9101 13 32.5 13H47.5C51.0899 13 54 10.0899 54 6.5C54 2.91015 51.0899 0 47.5 0Z"
+                                fill="white" />
+                            <path opacity="0.2"
+                                d="M73.5 13C77.0899 13 80 10.0899 80 6.5C80 2.91015 77.0899 0 73.5 0C69.9101 0 67 2.91015 67 6.5C67 10.0899 69.9101 13 73.5 13Z"
+                                fill="white" />
+                            <path opacity="0.2"
+                                d="M99.5 13C103.09 13 106 10.0899 106 6.5C106 2.91015 103.09 0 99.5 0C95.9101 0 93 2.91015 93 6.5C93 10.0899 95.9101 13 99.5 13Z"
+                                fill="white" />
+                        </svg>
                     </div>
                 </div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="641" height="121" viewBox="0 0 641 121" fill="none">
