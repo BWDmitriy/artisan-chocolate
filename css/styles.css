@@ -255,6 +255,16 @@ section {
 }
 .topsell-buttons {
     align-self: center;
+    display:flex;
+    width:106px;
+}
+.topsell-buttons > svg {
+    margin-left: auto;
+}
+.topsell-button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
 }
 /* ================ SECTION FOUR =====================  */
 .best-gift {
@@ -401,18 +411,10 @@ section {
     top: 50%;
     transform: translateY(-50%);
 }
-
-
-
-
-
-
-
 .footer-button {
     width: 339px;
     height: 60px;
     background-color:#000;
-
     color: #FFF;
     font-family: PT Sans;
     font-size: 18px;
@@ -423,8 +425,8 @@ section {
 .footer-bottom {
     padding-top: 35px;
     display:flex;
-    padding-left: 277px;
-    padding-right: 128px;
+    padding-left: 300px;
+    padding-right: 150px;
     justify-content: space-between;
 }
 .footer-copyright {
@@ -439,19 +441,8 @@ section {
     display:flex;
     gap:48px;
 }
-/*
-.section-three-list {
+.footer-follow-socials {
+    width: 102px;
     display: flex;
-    row-gap: 20px;
-    column-gap: 24px;
-    background-color: #00f;
-    width: 100%;
-    flex-direction: row;
-    flex-wrap: wrap
+    gap: 15px;
 }
-
-.section-three-list-item {
-    background: black;
-    width: calc((100% - 48px) / 3);
-    height: 282px
-} */
