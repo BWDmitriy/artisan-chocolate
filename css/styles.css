@@ -55,55 +55,7 @@ section {
 .logo {
     display:block;
 }
-/* 
-.heading {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 28px;
-    padding-right: 28px;
-    width: 1360px;
-    position: absolute
-}
 
-.logo-span {
-    color: #28a745
-}
-
-.logo {
-    color: #fff;
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.21
-}
-
-.nav {
-    margin-left: auto
-}
-
-.button-icon {
-    fill: #0ff
-}
-
-.button {
-    display: block;
-    width: 165px;
-    height: 48px;
-    border-radius: 5px;
-    background: #28A745;
-    margin: 0 auto
-}
-
-.navigation {
-    display: flex;
-    gap: 40px
-}
-
-.navigation-link {
-    padding-top: 20px;
-    padding-bottom: 20px
-} */
 /* ================ Header =====================  */
 .header {
     display:flex;
@@ -117,6 +69,11 @@ section {
     display:flex;
     align-items: center;
     gap: 34px;
+}
+.button-mobile {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
 }
 /* ================ SECTION ONE =====================  */
 .hero {
